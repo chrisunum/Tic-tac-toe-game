@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tic-Tac-Toe</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://naishare.com/images/favicon.png"
+    />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <style>
+      .container-out {
+        font-family: "Fira Sans", sans-serif;
+        padding: 15px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-out">
+      <div class="container-in">
+        <div class="table-container">
+          <p>Player <span id="player">X</span> your turn</p>
+          <table align="center">
+            <tr>
+              <td><div class="box"></div></td>
+              <td><div class="box"></div></td>
+              <td><div class="box"></div></td>
+            </tr>
+            <tr>
+              <td><div class="box"></div></td>
+              <td><div class="box"></div></td>
+              <td><div class="box"></div></td>
+            </tr>
+            <tr>
+              <td><div class="box"></div></td>
+              <td><div class="box"></div></td>
+              <td><div class="box"></div></td>
+            </tr>
+          </table>
+
+          <h2 id="message">Player <span id="winner"></span> Wins</h2>
+          <button id="reset">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="javascript/main.js"></script>
+  </body>
+</html>
